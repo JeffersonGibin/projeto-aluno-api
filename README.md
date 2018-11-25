@@ -7,7 +7,7 @@ processo seletivo da **ALPHA7 DESENVOLVIMENTO DE SOFTWARE LTDA**. Essa aplicaç�
 
 ### Dependências antes de usar o projeto
 
-Antes de começar garanta que você instalado em sua máquina as seguintes tecnologias;
+Antes de começar garanta que você tenha instalado em sua máquina as seguintes tecnologias;
 
 * PostgreSQL 9.4.20
 * Java version "1.8.0_181
@@ -183,9 +183,9 @@ spring.datasource.password=123
 
 #### Tecnologias utilizadas
 
-* JAVA
+* JAVA 8
 * Hibernate
 * Maven
-* Springboot
+* Spring Boot v2.1.0.RELEASE
 * JPA
-* PostgreSQL
+* PostgreSQL 9.4.20
