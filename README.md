@@ -1,13 +1,13 @@
-# Projeto Aluno API
+# Projeto Aluno - API
 
 ## O que é ?
 
 O Projeto Aluno é um projeto desenvolvido para a participação do
 processo seletivo da **ALPHA7 DESENVOLVIMENTO DE SOFTWARE LTDA**. Essa aplicação é o Back-end do projeto.
 
-### Dependências antes de usar o projeto
+### Dependências
 
-Antes de começar garanta que você tenha instalado em sua máquina as seguintes tecnologias;
+Antes de começar, garanta que você tenha instalado em sua máquina as seguintes tecnologias;
 
 * PostgreSQL 9.4.20
 * Java version "1.8.0_181
