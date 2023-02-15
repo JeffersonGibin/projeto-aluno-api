@@ -6,6 +6,7 @@ import javax.persistence.GenerationType;
 import br.net.a7.api.dto.AlunoDTO;
 import javax.persistence.Temporal;
 import javax.persistence.Column;
+import javax.persistence.Table;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.io.Serializable;
@@ -16,6 +17,7 @@ import javax.validation.constraints.NotBlank;
 * Classe utilizada pelo hibernate para criar a entidade Aluno no banco de dados
 */
 @Entity
+@Table(name = "aluno")
 public class Aluno implements Serializable {
 
   @Id

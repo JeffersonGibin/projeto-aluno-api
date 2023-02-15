@@ -1,28 +1,7 @@
 # Projeto Aluno - API
 
-## O que é ?
+Esse projeto foi desenvolvido exclusivamente para a participação do processo seletivo da **ALPHA7 DESENVOLVIMENTO DE SOFTWARE LTDA**. 
 
-O Projeto Aluno é um projeto desenvolvido para a participação do
-processo seletivo da **ALPHA7 DESENVOLVIMENTO DE SOFTWARE LTDA**. Essa aplicação é o Back-end do projeto.
-
-### Dependências
-
-Antes de começar, garanta que você tenha instalado em sua máquina as seguintes tecnologias;
-
-* PostgreSQL 9.4.20
-* Java version "1.8.0_181
-
-### Configuração da base de dados
-
-Para configurar a base de dados abra o projeto em uma IDE de sua preferência e procure pelo  diretório **src\main\resources\application.properties**.
-Abra o arquivo application.properties e edite as seguintes linhas:
-
-```java
-#Exemplo
-spring.datasource.url=jdbc:postgresql://localhost:5433/projeto_aluno
-spring.datasource.username=postgres
-spring.datasource.password=123
-```
 
 ## Documentação API
 

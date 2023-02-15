@@ -4,6 +4,8 @@ import javax.validation.constraints.NotNull;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.OneToOne;
+import javax.persistence.JoinTable;
+import javax.persistence.Table;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -14,6 +16,7 @@ import java.util.Date;
 * Classe utilizada pelo hibernate para criar a entidade Prova no banco de dados
 */
 @Entity
+@Table(name = "prova")
 public class Prova implements Serializable {
 
   @Id
@@ -32,6 +35,7 @@ public class Prova implements Serializable {
 
   @OneToOne
   @NotNull
+  @JoinTable(name = "id")
   private Aluno aluno;
 
   public Prova(Long id, Character materia, Date data, double nota) {
